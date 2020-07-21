@@ -18,5 +18,4 @@ public class IdentityHashMapImpl {
 		//will print both value since put here compare by reference
 		ihm.forEach((k,v)->System.out.println("iKey: "+k+" Value: "+v));
 	}
-
 }

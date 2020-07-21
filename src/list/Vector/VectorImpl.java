@@ -6,7 +6,7 @@ import java.util.Vector;
 /*
  * Underlying DataStructure: growable array
  * Implements: RandomAccess,Cloneable,Serializable
- * Initial Capacity: 10, incresed size 10*2=20.
+ * Initial Capacity: 10, increased size 10*2=20.
  * Thread safe: Yes
  * Insertion order: indexed, same as inserted.
  * Time complexity: Access O(1), Search O(1) ,Insertion O(n) ,Deletion O(n)
