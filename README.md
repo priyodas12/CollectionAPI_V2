@@ -1,8 +1,10 @@
 # Collection APIs
-## LIST- 
+## LIST
 ### ArrayList,Linkedlist,TreeList,Vector,Stack,CopyOnWriteArrayList
-## SET- 
+## SET
 ### HashSet,LinkedHashSet,TreeSet
-## MAP- 
+## MAP
 ### HAshTable,HashMap,LinkedHashMap,TreeMap,COncurrentHashMap
+## QUEUE
+### BlockingQueue,DQueue
    
