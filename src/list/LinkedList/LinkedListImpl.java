@@ -7,7 +7,7 @@ import java.util.List;
  * Implements: RandomAccess,Cloneable,Serializable
  * Initial Capacity: 0,if not mentioned by constructor.
  * Insertion order: indexed, same as inserted.
- * Time complexity: Access O(n), Search O(n) ,Insertion O(1) ,Deletion O(1)
+ * Time complexity: Access O(n), Search O(n) ,Insertion O(1) ,Deletion O(N)
  * Space complexity: O(n)
  */
 
