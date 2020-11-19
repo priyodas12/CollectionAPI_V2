@@ -1,9 +1,6 @@
 package list.ArrayList;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class SortingInArrayList {
 
@@ -12,10 +9,10 @@ public class SortingInArrayList {
 		List <Integer> l=new ArrayList<Integer>();
 		l=Arrays.asList(a);
 		System.out.println("Ascending order");
-		Collections.sort(l);
+		Collections.sort(l, Comparator.naturalOrder());
 		l.stream().forEach(System.out::println);
 		System.out.println("Descending order");
-		Collections.sort(l, Collections.reverseOrder());
+		Collections.sort(l, Comparator.reverseOrder());
 		l.stream().forEach(System.out::println);
 	}
 
